@@ -1,0 +1,116 @@
+body{
+    background-color: rgba(241, 163, 20, 0.866);
+    padding: 0px 100px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav ul{
+    ul {
+        list-style-type: none; /* Removes bullets */
+        margin: 0; /* Reset margin */
+        padding: 0; /* Reset padding */
+    }
+    
+    li {
+        display: inline-block; /* Display links horizontally */
+        margin-right: 20px; /* Add spacing between links */
+    }
+    
+    a {
+        text-decoration: none; /* Remove underlines from links */
+    }    
+}
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    color:white;
+    padding:0px 30px;
+    text-decoration: none;
+}
+nav ul {
+    text-align: center;
+}
+nav a:hover {
+    color: rgb(255, 77, 0);
+}
+nav ul {
+    top: 0;
+    width: 100%;
+    background-color: #333; /* Set your desired background color */
+}
+.Box {
+    background-color: black;
+    margin-bottom: 30px;
+}
+.content{
+    background-color: black;
+    margin-bottom: 30px;
+}
+h1 {
+    color: black;
+    text-align: left;
+    font-size: 44px;
+  }
+  
+  h2{
+    color:white;
+    text-align: left;
+    font-size: 34px;
+  
+  }
+  b{
+    color:white;
+    text-align: left;
+    font-size: 24px;
+  }
+  p{
+    color:white;
+    text-align: left;
+    font-size:19px;
+  }
+  h3{
+    color:black;
+    text-align: left;
+    font-size: 34px
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
