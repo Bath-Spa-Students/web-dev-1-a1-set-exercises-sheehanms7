@@ -1,0 +1,56 @@
+body {
+    /*background colour of the website*/
+    background:linear-gradient(rgb(189, 134, 57),rgb(230, 136, 5), rgb(59, 36, 3));
+    
+}
+header {
+  text-align: center;
+  color:rgb(21, 3, 3);
+  font-size: 60px;
+}
+
+h2{
+  text-align: center;
+  color: rgb(32, 6, 6);
+}
+
+h1 {
+    font-family: "Sans-serif", serif; /*changing the font*/
+    font-weight:bolder; /*bold text*/
+    color: rgb(48, 14, 14); /*colour of the text*/
+    font-size: 60px; /*size of the text*/
+    text-align: center; /*alignment or where the position of the text*/
+    margin-top: -11%; /*gap from the top of the website to the text*/
+    /* x-offest, y-offest, blur-radius, shadow colour*/
+    text-shadow: 0 0 8px #202b0f; /*shadow of the header*/
+}
+
+
+#row::after { /*inserts the video beside/after the video*/
+    content: ""; 
+    clear: both; /*positioned next to a floating video*/
+    display: table; /*display the video as a table*/
+}
+
+.section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  width: 20%;
+  max-width: 250px;
+  height: 80%px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+footer {
+  text-align: center;
+  color:rgb(169, 156, 153);
+  margin-bottom: 100px;
+  font-family: "Lora";
+  font-size: 25px;
+  position: relative;
+  /*translate (x,y)*/
+  transform: translate(-15px, 80px); /*positioning the text*/
+}
