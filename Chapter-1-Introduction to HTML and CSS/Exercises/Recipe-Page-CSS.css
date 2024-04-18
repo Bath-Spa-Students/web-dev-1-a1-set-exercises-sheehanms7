@@ -1,32 +1,59 @@
 body{
     background-image: url("pulao.jpg");
-    backdrop-filter: blur(7.5px)
+    backdrop-filter: blur(7.5px);
 }
 h1{
-    color: rgb(216, 138, 138);
     font-size: 35px;
+    text-align: center;
+    color: rgb(216, 138, 138);
 }
-p{
+ul{
     color: bisque;
     font-size: 20px;
+    text-align: left;
+}
+.sidebar-img-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+}
+
+.sidebar-img {
+    max-width: 100%; 
 }
 h2{
     color: rgb(216, 138, 138);
     font-size: 30px;
+    text-align: center;
 }
-p{
+li{
     color: bisque;
     font-size: 20px;
 }
+.sidebar-img-container {
+    display: flex;
+    justify-content: calc(2000); 
+    align-items: calc(2000); 
+    height: 10%; 
+}
+
+.sidebar-img {
+    max-width: 10%; 
+}
+
 h2{
     color:rgb(216, 138, 138);
     font-size: 30px;
+    
 }
 p{
     color: bisque;
     font-size: 20px;
+    text-align: left;
 }
 h3{
     color: rgb(216, 138, 138);
     font-size: 26px;
+    text-align: left;
 }
